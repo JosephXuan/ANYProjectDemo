@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="uPJ-gb-TlQ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Base Nav View Controller-->
+        <scene sceneID="Dbj-aN-bNx">
+            <objects>
+                <navigationController id="uPJ-gb-TlQ" customClass="CCBaseNavViewController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sFT-2A-pGx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="4ss-aH-fx6" kind="relationship" relationship="rootViewController" id="1uR-SE-J7n"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7fh-JD-y1e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-83" y="301"/>
+        </scene>
+        <!--乡村美味-->
+        <scene sceneID="ppx-1h-dtQ">
+            <objects>
+                <viewController id="4ss-aH-fx6" customClass="CCSeMicroFilmViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Opt-Mk-tEd"/>
+                        <viewControllerLayoutGuide type="bottom" id="OT1-pc-1ci"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CJu-wi-8kP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="乡村美味" id="Nth-5p-4iC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oui-35-hRg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="546" y="301"/>
+        </scene>
+    </scenes>
+</document>
